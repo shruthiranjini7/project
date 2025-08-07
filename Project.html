@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: rgb(76, 190, 228);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: rgb(222, 4, 124);
+            margin: 0;
+        }
+        section {
+            background-image: url(img2.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            padding: 50px;
+            border: 10px solid black;
+            box-sizing: border-box;
+        }
+        .card {
+            font-family: 'Courier New', Courier, monospace;
+            width: 300px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 2px 4px 8px rgba(0,0,0,0.5);
+        }
+        .card h2 {
+            text-align: center;
+            font-style: italic;
+        }
+        .card p {
+            font-size: 25px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Project</h1>
+    </header>
+
+    <section id="home">
+        <div class="card">
+            <h2>To Do List</h2>
+            <p>This project demonstrates the integration of multimedia elements using HTML. It features a locally embedded video, an audio clip, and a YouTube video, showcasing the use of video, audio, and iframe tags. <a href="media.html">Media Showcase</a></p>
+        </div>
+        <div class="card">
+            <h2>Student ID Card</h2>
+            <p>This project simulates a digital student ID card using basic HTML and CSS. It includes student details and uses semantic layout for clean design. <a href="Student.html">View ID Card</a></p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Your Name. All rights reserved.
+    </footer>
+</body>
+</html>
